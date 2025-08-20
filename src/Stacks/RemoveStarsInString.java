@@ -18,10 +18,10 @@ public class RemoveStarsInString {
                 st.push(val);
             }
         }
-        String res  = "";
+        StringBuilder sb = new StringBuilder();
         for(Character i : st){
-            res+=i;
+            sb.append(i);
         }
-        return res;
+        return sb.toString();
     }
 }
